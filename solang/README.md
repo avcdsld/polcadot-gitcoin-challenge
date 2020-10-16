@@ -1,6 +1,3 @@
-_Notification_: My address that I submitted to Gitcoin was for Polkadot, not Kusama. Below is the Kusama address.
-`DuBWrXQC4WVFGLUWdY5vP7CGzg9JnwoZbE5ADfLdNBAaWkb`
-
 # First Solang Project
 
 Deploying Solidity Contract On Plasm Network V1
