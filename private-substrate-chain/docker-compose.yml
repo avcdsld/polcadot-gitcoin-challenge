@@ -1,0 +1,53 @@
+version: "3.2"
+
+services:
+  node1:
+    container_name: node1
+    image: paritytech/ci-linux:production
+    working_dir: /var/www/node-template
+    ports:
+      - "30333:30333"
+      - "9933:9933"
+      - "9944:9944"
+    environment:
+      - CARGO_HOME=/var/www/node-template/.cargo
+    volumes:
+    #  - .:/var/www/node-template
+      - ./node1:/var/www/node-template
+    #  - type: bind
+    #    source: ./.local
+    #    target: /root/.local
+    # command: bash -c "cargo build --release && ./target/release/node-template --dev --ws-external"
+    command: tail -f /dev/null
+    networks:
+      testing_net:
+        ipv4_address: 172.28.1.1
+
+  node2:
+    container_name: node2
+    image: paritytech/ci-linux:production
+    working_dir: /var/www/node-template
+    ports:
+      - "30344:30344"
+      - "9935:9935"
+      - "9945:9945"
+    environment:
+      - CARGO_HOME=/var/www/node-template/.cargo
+    volumes:
+      - ./node2:/var/www/node-template
+    #   - .:/var/www/node-template
+    #   - type: bind
+    #     source: ./.local
+    #     target: /root/.local
+    # command: bash -c "cargo build --release && ./target/release/node-template --dev --ws-external"
+    command: tail -f /dev/null
+    networks:
+      testing_net:
+        ipv4_address: 172.28.1.2
+
+networks:
+  testing_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.28.0.0/16
