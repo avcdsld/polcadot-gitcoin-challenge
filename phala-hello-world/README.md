@@ -1,5 +1,5 @@
 ### Screenshots of the terminal window with the running core blockchain (phala-node, pruntime, and phost)
-+ ![](./phala-terminal.png)
+![](./phala-terminal.png)
 
 ### a screenshot of my user-issued secret token
 ![](phala-custom-secret-token.png)
