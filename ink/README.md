@@ -8,7 +8,7 @@
 
 ### Screenshots
 #### Deploy
-![](./screenshot1.png)
+![](./screenshot0.png)
 
 ### Display Balances
 ![](./screenshot1.png)
