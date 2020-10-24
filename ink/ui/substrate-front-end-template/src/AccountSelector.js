@@ -12,6 +12,7 @@ import {
 } from 'semantic-ui-react';
 
 import { useSubstrate } from './substrate-lib';
+import TestTokenContract, { defaultGasLimit, displayTestToken } from "./TestTokenContract";
 
 function Main (props) {
   const { keyring } = useSubstrate();
@@ -100,6 +101,7 @@ function BalanceAnnotation (props) {
   const { accountSelected } = props;
   const { api } = useSubstrate();
   const [accountBalance, setAccountBalance] = useState(0);
+  const testTokenContract = TestTokenContract(api);
 
   // When account address changes, update subscriptions
   useEffect(() => {
@@ -107,9 +109,8 @@ function BalanceAnnotation (props) {
 
     // If the user has selected an address, create a new subscription
     accountSelected &&
-      api.query.system.account(accountSelected, balance => {
-        setAccountBalance(balance.data.free.toHuman());
-      })
+      testTokenContract.query.balanceOf(accountSelected, 0, defaultGasLimit, accountSelected)
+        .then(result => setAccountBalance(result.output.toHuman()))
         .then(unsub => {
           unsubscribe = unsub;
         })
@@ -121,7 +122,7 @@ function BalanceAnnotation (props) {
   return accountSelected ? (
     <Label pointing='left'>
       <Icon name='money' color='green' />
-      {accountBalance}
+      { displayTestToken(accountBalance) }
     </Label>
   ) : null;
 }

@@ -6,14 +6,14 @@ import { SubstrateContextProvider, useSubstrate } from './substrate-lib';
 import { DeveloperConsole } from './substrate-lib/components';
 
 import AccountSelector from './AccountSelector';
-import Balances from './Balances';
+import Balances from './TestTokenBalances';
 import BlockNumber from './BlockNumber';
 import Events from './Events';
 import Interactor from './Interactor';
 import Metadata from './Metadata';
 import NodeInfo from './NodeInfo';
 import TemplateModule from './TemplateModule';
-import Transfer from './Transfer';
+import Transfer from './TestTokenTransfer';
 import Upgrade from './Upgrade';
 
 function Main () {
