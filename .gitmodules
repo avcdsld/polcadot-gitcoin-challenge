@@ -1,0 +1,3 @@
+[submodule "ink/node/substrate-node-template"]
+	path = ink/node/substrate-node-template
+	url = git@github.com:avcdsld/substrate-node-template.git
