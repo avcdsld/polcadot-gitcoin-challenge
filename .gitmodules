@@ -1,3 +1,6 @@
 [submodule "ink/node/substrate-node-template"]
 	path = ink/node/substrate-node-template
 	url = git@github.com:avcdsld/substrate-node-template.git
+[submodule "substrate-nft/substrate-node-nft"]
+	path = substrate-nft/substrate-node-nft
+	url = git@github.com:avcdsld/substrate-node-nft.git
