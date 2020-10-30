@@ -3,9 +3,9 @@
 ### Proof that the UI component works
 This UI component for multisig is very simple and simply initiates a multisig transfer. The co-signer will then need to send further transactions.
 
-![](./proof_multisig_work/1_create_multisig_transfer.png)
+![](./proof_ui_work/1_create_multisig_transfer.png)
 
-![](./proof_multisig_work/2_event.png)
+![](./proof_ui_work/2_event.png)
 
 
 ### Proof that the embedded Multisig pallet works
