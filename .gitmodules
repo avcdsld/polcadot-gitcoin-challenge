@@ -4,3 +4,9 @@
 [submodule "substrate-nft/substrate-node-nft"]
 	path = substrate-nft/substrate-node-nft
 	url = git@github.com:avcdsld/substrate-node-nft.git
+[submodule "frame-multisig/substrate-node-template-multisig"]
+	path = frame-multisig/substrate-node-template-multisig
+	url = git@github.com:avcdsld/substrate-node-template-multisig.git
+[submodule "frame-multisig/substrate-front-end-template-multisig"]
+	path = frame-multisig/substrate-front-end-template-multisig
+	url = git@github.com:avcdsld/substrate-front-end-template-multisig.git
