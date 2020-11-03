@@ -10,3 +10,6 @@
 [submodule "frame-multisig/substrate-front-end-template-multisig"]
 	path = frame-multisig/substrate-front-end-template-multisig
 	url = git@github.com:avcdsld/substrate-front-end-template-multisig.git
+[submodule "multi-currency/node"]
+	path = multi-currency/node
+	url = git@github.com:avcdsld/substrate-node-nft.git
