@@ -62,13 +62,16 @@
 
 ## 16. [ECOSYSTEM CHALLENGE] Enable NFT Support
 
-  PR: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/substrate-nft
+  PR-: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/substrate-nft
 
 ## 17. [ADVANCED CHALLENGE] REST APIs - Read an account's pending payouts
 
-  PR: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/get-pending-payouts
+  PR-: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/get-pending-payouts
 
 ## 18. [INTERMEDIATE CHALLENGE] FRAME Multisig
 
-  PR: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/frame-multisig
- 
+  PR-: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/frame-multisig
+
+## 19. [ECOSYSTEM CHALLENGE] Enable Multi-Currency Support
+
+  PR-: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/multi-currency
