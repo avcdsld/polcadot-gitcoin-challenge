@@ -13,3 +13,9 @@
 [submodule "multi-currency/node"]
 	path = multi-currency/node
 	url = git@github.com:avcdsld/substrate-node-nft.git
+[submodule "frame-development/node"]
+	path = frame-development/node
+	url = git@github.com:avcdsld/substrate-node-nft.git
+[submodule "frame-development/front-end"]
+	path = frame-development/front-end
+	url = git@github.com:avcdsld/substrate-front-end-frame-development.git
