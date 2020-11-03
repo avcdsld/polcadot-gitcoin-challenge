@@ -75,3 +75,7 @@
 ## 19. [ECOSYSTEM CHALLENGE] Enable Multi-Currency Support
 
   PR-: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/multi-currency
+
+## 20. [INTERMEDIATE CHALLENGE] FRAME Development
+
+  PR-: https://github.com/avcdsld/polkadot-gitcoin-challenge/tree/main/frame-development
