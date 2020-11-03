@@ -5,4 +5,4 @@
 ### Show Balance
 ![](./screenshot2.png)
 
-![](./screenshot2.png)
+![](./screenshot3.png)
